@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_snc_sn_trivia_sp.trivia user" name="x_snc_sn_trivia_sp.trivia user">27a2ea542f810110bdff2d5df699b6a5</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-10 19:15:07</sys_created_on>
+        <sys_id>73a2ee982f050110bdff2d5df699b672</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>27a2ea542f810110bdff2d5df699b6a5</sys_name>
+        <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">ec722a182f050110bdff2d5df699b6ce</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SN Trivia Spoke">ec722a182f050110bdff2d5df699b6ce</sys_scope>
+        <sys_update_name>sys_embedded_help_role_73a2ee982f050110bdff2d5df699b672</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-10 19:15:07</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
