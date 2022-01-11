@@ -13,7 +13,7 @@
         <ih_action>true</ih_action>
         <internal_name>get_trivia_question</internal_name>
         <label_cache>[{"name":"{{step[fa38aa0e-2b3a-4a85-90dc-4a2f05f8a203].response_body}}","label":"step➛Call getQuestion Method➛Response Body","type":"step","ref":""},{"name":"{{step[fa38aa0e-2b3a-4a85-90dc-4a2f05f8a203].status_code}}","label":"step➛Call getQuestion Method➛Status Code","type":"step","ref":""},{"name":"{{step[c71e1d9c-c644-4f04-9992-3de4de1c08ee].variable}}","label":"step➛Parse Response➛variable","type":"step","ref":""},{"name":"{{step[c71e1d9c-c644-4f04-9992-3de4de1c08ee].step_output_question}}","label":"step➛Parse Response➛step_output_question","type":"step","ref":""},{"name":"{{step[c71e1d9c-c644-4f04-9992-3de4de1c08ee].step_output_category}}","label":"step➛Parse Response➛step_output_category","type":"step","ref":""},{"name":"{{step[c71e1d9c-c644-4f04-9992-3de4de1c08ee].step_output_difficulty}}","label":"step➛Parse Response➛step_output_difficulty","type":"step","ref":""},{"name":"{{step[c71e1d9c-c644-4f04-9992-3de4de1c08ee].step_output_id}}","label":"step➛Parse Response➛step_output_id","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>8401f6542f450110bdff2d5df699b661</latest_snapshot>
+        <latest_snapshot>cffe87982f850110bdff2d5df699b61e</latest_snapshot>
         <master_snapshot>2c01f6542f450110bdff2d5df699b6d7</master_snapshot>
         <name>Get Trivia Question</name>
         <natlang/>
@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9555ae1c2f050110bdff2d5df699b635</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>Get Trivia Question</sys_name>
         <sys_overrides/>
         <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">ec722a182f050110bdff2d5df699b6ce</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="SN Trivia Spoke">ec722a182f050110bdff2d5df699b6ce</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_9555ae1c2f050110bdff2d5df699b635</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-10 20:17:44</sys_updated_on>
+        <sys_updated_on>2022-01-10 22:28:44</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -105,10 +105,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-10 19:38:21</sys_created_on>
         <sys_id>84086a9c2f050110bdff2d5df699b678</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="SN Trivia Spoke">ec722a182f050110bdff2d5df699b6ce</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-10 20:15:49</sys_updated_on>
+        <sys_updated_on>2022-01-10 21:12:18</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=84086a9c2f050110bdff2d5df699b678"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -119,11 +119,25 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-10 19:38:22</sys_created_on>
         <sys_id>1c086a9c2f050110bdff2d5df699b6ae</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-10 21:12:18</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>84086a9c2f050110bdff2d5df699b678</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-10 21:12:18</sys_created_on>
+        <sys_id>1c8df69c2f450110bdff2d5df699b6c5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-10 19:38:22</sys_updated_on>
-        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Accept","value":"application/json"}]}</value>
-        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+        <sys_updated_on>2022-01-10 21:12:18</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -161,10 +175,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-10 19:38:22</sys_created_on>
         <sys_id>58086a9c2f050110bdff2d5df699b6ae</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-10 19:38:22</sys_updated_on>
-        <value>define_connection_inline</value>
+        <sys_updated_on>2022-01-10 21:12:18</sys_updated_on>
+        <value>use_connection_alias</value>
         <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -180,6 +194,20 @@
         <sys_updated_on>2022-01-10 19:38:22</sys_updated_on>
         <value>https://scripting.service-now.com</value>
         <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>84086a9c2f050110bdff2d5df699b678</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-10 21:12:18</sys_created_on>
+        <sys_id>948df69c2f450110bdff2d5df699b6c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-10 21:12:18</sys_updated_on>
+        <value>b3c9f6d82f450110bdff2d5df699b637</value>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -209,6 +237,250 @@
         <value>18409d8007482000dada43c0d1021e8f</value>
         <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=84086a9c2f050110bdff2d5df699b678^sys_idNOT IN948df69c2f450110bdff2d5df699b6b4,988df69c2f450110bdff2d5df699b6ad,9c8df69c2f450110bdff2d5df699b6b9"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=string,uiTypeLabel=String,uiUniqueId=b88165c8-fa80-4d93-90b2-73ed2fc113ba</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_accept</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Accept</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Call getQuestion Method">84086a9c2f050110bdff2d5df699b678</model>
+        <model_id>84086a9c2f050110bdff2d5df699b678</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_84086a9c2f050110bdff2d5df699b678</name>
+        <next_element/>
+        <order>8</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-10 21:12:18</sys_created_on>
+        <sys_id>948df69c2f450110bdff2d5df699b6b4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SN Trivia Spoke">ec722a182f050110bdff2d5df699b6ce</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-10 22:28:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=e5eca40b-8cb7-4cba-9119-b8fbbaa4c498</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="Call getQuestion Method">84086a9c2f050110bdff2d5df699b678</model>
+        <model_id>84086a9c2f050110bdff2d5df699b678</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_84086a9c2f050110bdff2d5df699b678</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-10 21:12:18</sys_created_on>
+        <sys_id>988df69c2f450110bdff2d5df699b6ad</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SN Trivia Spoke">ec722a182f050110bdff2d5df699b6ce</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-10 22:28:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=string,uiTypeLabel=String,uiUniqueId=a7181899-1805-4429-a6ee-0382f8a1d06e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_content-type</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Content-Type</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Call getQuestion Method">84086a9c2f050110bdff2d5df699b678</model>
+        <model_id>84086a9c2f050110bdff2d5df699b678</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_84086a9c2f050110bdff2d5df699b678</name>
+        <next_element/>
+        <order>9</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-10 21:12:18</sys_created_on>
+        <sys_id>9c8df69c2f450110bdff2d5df699b6b9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SN Trivia Spoke">ec722a182f050110bdff2d5df699b6ce</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-10 22:28:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Get Trivia Question">9555ae1c2f050110bdff2d5df699b635</action>
         <cid>c71e1d9c-c644-4f04-9992-3de4de1c08ee</cid>
@@ -1183,10 +1455,10 @@ if (inputs.step_input_status_code == '200')  {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-10 19:38:21</sys_created_on>
         <sys_id>84086a9c2f050110bdff2d5df699b678</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="SN Trivia Spoke">ec722a182f050110bdff2d5df699b6ce</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-10 20:15:49</sys_updated_on>
+        <sys_updated_on>2022-01-10 21:12:18</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=84086a9c2f050110bdff2d5df699b678"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1197,11 +1469,25 @@ if (inputs.step_input_status_code == '200')  {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-10 19:38:22</sys_created_on>
         <sys_id>1c086a9c2f050110bdff2d5df699b6ae</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-10 21:12:18</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>84086a9c2f050110bdff2d5df699b678</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-10 21:12:18</sys_created_on>
+        <sys_id>1c8df69c2f450110bdff2d5df699b6c5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-10 19:38:22</sys_updated_on>
-        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Accept","value":"application/json"}]}</value>
-        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+        <sys_updated_on>2022-01-10 21:12:18</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1239,10 +1525,10 @@ if (inputs.step_input_status_code == '200')  {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-10 19:38:22</sys_created_on>
         <sys_id>58086a9c2f050110bdff2d5df699b6ae</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-10 19:38:22</sys_updated_on>
-        <value>define_connection_inline</value>
+        <sys_updated_on>2022-01-10 21:12:18</sys_updated_on>
+        <value>use_connection_alias</value>
         <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1258,6 +1544,20 @@ if (inputs.step_input_status_code == '200')  {
         <sys_updated_on>2022-01-10 19:38:22</sys_updated_on>
         <value>https://scripting.service-now.com</value>
         <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>84086a9c2f050110bdff2d5df699b678</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-10 21:12:18</sys_created_on>
+        <sys_id>948df69c2f450110bdff2d5df699b6c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-10 21:12:18</sys_updated_on>
+        <value>b3c9f6d82f450110bdff2d5df699b637</value>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1287,6 +1587,250 @@ if (inputs.step_input_status_code == '200')  {
         <value>18409d8007482000dada43c0d1021e8f</value>
         <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=84086a9c2f050110bdff2d5df699b678^sys_idNOT IN948df69c2f450110bdff2d5df699b6b4,988df69c2f450110bdff2d5df699b6ad,9c8df69c2f450110bdff2d5df699b6b9"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=string,uiTypeLabel=String,uiUniqueId=b88165c8-fa80-4d93-90b2-73ed2fc113ba</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_accept</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Accept</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Call getQuestion Method">84086a9c2f050110bdff2d5df699b678</model>
+        <model_id>84086a9c2f050110bdff2d5df699b678</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_84086a9c2f050110bdff2d5df699b678</name>
+        <next_element/>
+        <order>8</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-10 21:12:18</sys_created_on>
+        <sys_id>948df69c2f450110bdff2d5df699b6b4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SN Trivia Spoke">ec722a182f050110bdff2d5df699b6ce</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-10 22:28:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=e5eca40b-8cb7-4cba-9119-b8fbbaa4c498</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="Call getQuestion Method">84086a9c2f050110bdff2d5df699b678</model>
+        <model_id>84086a9c2f050110bdff2d5df699b678</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_84086a9c2f050110bdff2d5df699b678</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-10 21:12:18</sys_created_on>
+        <sys_id>988df69c2f450110bdff2d5df699b6ad</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SN Trivia Spoke">ec722a182f050110bdff2d5df699b6ce</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-10 22:28:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=string,uiTypeLabel=String,uiUniqueId=a7181899-1805-4429-a6ee-0382f8a1d06e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_content-type</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Content-Type</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Call getQuestion Method">84086a9c2f050110bdff2d5df699b678</model>
+        <model_id>84086a9c2f050110bdff2d5df699b678</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_84086a9c2f050110bdff2d5df699b678</name>
+        <next_element/>
+        <order>9</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-10 21:12:18</sys_created_on>
+        <sys_id>9c8df69c2f450110bdff2d5df699b6b9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SN Trivia Spoke">ec722a182f050110bdff2d5df699b6ce</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-10 22:28:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Get Trivia Question">9555ae1c2f050110bdff2d5df699b635</action>
         <cid>c71e1d9c-c644-4f04-9992-3de4de1c08ee</cid>
@@ -2009,17 +2553,17 @@ if (inputs.step_input_status_code == '200')  {
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Get Trivia Question">9555ae1c2f050110bdff2d5df699b635</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"21013a542f450110bdff2d5df699b6d0","name":"plan"}}</plan>
-        <snapshot>8401f6542f450110bdff2d5df699b661</snapshot>
+        <snapshot>cffe87982f850110bdff2d5df699b61e</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-10 20:17:46</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>21013a542f450110bdff2d5df699b6d0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-10 20:17:46</sys_updated_on>
+        <sys_updated_on>2022-01-10 22:28:47</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -2124,10 +2668,10 @@ if (inputs.step_input_status_code == '200')  {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-10 20:17:42</sys_created_on>
         <sys_id>6401f6542f450110bdff2d5df699b6d9</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="SN Trivia Spoke">ec722a182f050110bdff2d5df699b6ce</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-10 20:17:42</sys_updated_on>
+        <sys_updated_on>2022-01-10 22:28:43</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6401f6542f450110bdff2d5df699b6d9"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2152,10 +2696,10 @@ if (inputs.step_input_status_code == '200')  {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-10 20:17:42</sys_created_on>
         <sys_id>2c01f6542f450110bdff2d5df699b6f2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-10 20:17:42</sys_updated_on>
-        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Accept","value":"application/json"}]}</value>
+        <sys_updated_on>2022-01-10 22:28:43</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
         <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2180,11 +2724,25 @@ if (inputs.step_input_status_code == '200')  {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-10 20:17:42</sys_created_on>
         <sys_id>6801f6542f450110bdff2d5df699b6f2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-10 22:28:43</sys_updated_on>
+        <value>use_connection_alias</value>
+        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6401f6542f450110bdff2d5df699b6d9</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-10 22:28:43</sys_created_on>
+        <sys_id>77fe87982f850110bdff2d5df699b6ec</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-10 20:17:42</sys_updated_on>
-        <value>define_connection_inline</value>
-        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+        <sys_updated_on>2022-01-10 22:28:43</sys_updated_on>
+        <value>b3c9f6d82f450110bdff2d5df699b637</value>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2217,6 +2775,20 @@ if (inputs.step_input_status_code == '200')  {
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
         <document_key>6401f6542f450110bdff2d5df699b6d9</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-10 22:28:43</sys_created_on>
+        <sys_id>b3fe87982f850110bdff2d5df699b6ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-10 22:28:43</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6401f6542f450110bdff2d5df699b6d9</document_key>
         <order>13</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -2228,6 +2800,250 @@ if (inputs.step_input_status_code == '200')  {
         <value>18409d8007482000dada43c0d1021e8f</value>
         <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=6401f6542f450110bdff2d5df699b6d9^sys_idNOT IN33fe87982f850110bdff2d5df699b6d4,3ffe87982f850110bdff2d5df699b6e0,bbfe87982f850110bdff2d5df699b6da"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=e5eca40b-8cb7-4cba-9119-b8fbbaa4c498</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="Call getQuestion Method">6401f6542f450110bdff2d5df699b6d9</model>
+        <model_id>6401f6542f450110bdff2d5df699b6d9</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_6401f6542f450110bdff2d5df699b6d9</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-10 22:28:43</sys_created_on>
+        <sys_id>33fe87982f850110bdff2d5df699b6d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SN Trivia Spoke">ec722a182f050110bdff2d5df699b6ce</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-10 22:28:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=string,uiTypeLabel=String,uiUniqueId=a7181899-1805-4429-a6ee-0382f8a1d06e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_content-type</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Content-Type</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Call getQuestion Method">6401f6542f450110bdff2d5df699b6d9</model>
+        <model_id>6401f6542f450110bdff2d5df699b6d9</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_6401f6542f450110bdff2d5df699b6d9</name>
+        <next_element/>
+        <order>9</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-10 22:28:43</sys_created_on>
+        <sys_id>3ffe87982f850110bdff2d5df699b6e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SN Trivia Spoke">ec722a182f050110bdff2d5df699b6ce</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-10 22:28:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=string,uiTypeLabel=String,uiUniqueId=b88165c8-fa80-4d93-90b2-73ed2fc113ba</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_accept</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Accept</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Call getQuestion Method">6401f6542f450110bdff2d5df699b6d9</model>
+        <model_id>6401f6542f450110bdff2d5df699b6d9</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_6401f6542f450110bdff2d5df699b6d9</name>
+        <next_element/>
+        <order>8</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-10 22:28:43</sys_created_on>
+        <sys_id>bbfe87982f850110bdff2d5df699b6da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SN Trivia Spoke">ec722a182f050110bdff2d5df699b6ce</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-10 22:28:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Get Trivia Question">2c01f6542f450110bdff2d5df699b6d7</action>
         <cid>c71e1d9c-c644-4f04-9992-3de4de1c08ee</cid>
@@ -3202,10 +4018,10 @@ if (inputs.step_input_status_code == '200')  {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-10 20:17:42</sys_created_on>
         <sys_id>6401f6542f450110bdff2d5df699b6d9</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="SN Trivia Spoke">ec722a182f050110bdff2d5df699b6ce</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-10 20:17:42</sys_updated_on>
+        <sys_updated_on>2022-01-10 22:28:43</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6401f6542f450110bdff2d5df699b6d9"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3230,10 +4046,10 @@ if (inputs.step_input_status_code == '200')  {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-10 20:17:42</sys_created_on>
         <sys_id>2c01f6542f450110bdff2d5df699b6f2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-10 20:17:42</sys_updated_on>
-        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Accept","value":"application/json"}]}</value>
+        <sys_updated_on>2022-01-10 22:28:43</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
         <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3258,11 +4074,25 @@ if (inputs.step_input_status_code == '200')  {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-10 20:17:42</sys_created_on>
         <sys_id>6801f6542f450110bdff2d5df699b6f2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-10 22:28:43</sys_updated_on>
+        <value>use_connection_alias</value>
+        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6401f6542f450110bdff2d5df699b6d9</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-10 22:28:43</sys_created_on>
+        <sys_id>77fe87982f850110bdff2d5df699b6ec</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-10 20:17:42</sys_updated_on>
-        <value>define_connection_inline</value>
-        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+        <sys_updated_on>2022-01-10 22:28:43</sys_updated_on>
+        <value>b3c9f6d82f450110bdff2d5df699b637</value>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -3295,6 +4125,20 @@ if (inputs.step_input_status_code == '200')  {
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
         <document_key>6401f6542f450110bdff2d5df699b6d9</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-10 22:28:43</sys_created_on>
+        <sys_id>b3fe87982f850110bdff2d5df699b6ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-10 22:28:43</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6401f6542f450110bdff2d5df699b6d9</document_key>
         <order>13</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -3306,6 +4150,250 @@ if (inputs.step_input_status_code == '200')  {
         <value>18409d8007482000dada43c0d1021e8f</value>
         <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=6401f6542f450110bdff2d5df699b6d9^sys_idNOT IN33fe87982f850110bdff2d5df699b6d4,3ffe87982f850110bdff2d5df699b6e0,bbfe87982f850110bdff2d5df699b6da"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=e5eca40b-8cb7-4cba-9119-b8fbbaa4c498</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="Call getQuestion Method">6401f6542f450110bdff2d5df699b6d9</model>
+        <model_id>6401f6542f450110bdff2d5df699b6d9</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_6401f6542f450110bdff2d5df699b6d9</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-10 22:28:43</sys_created_on>
+        <sys_id>33fe87982f850110bdff2d5df699b6d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SN Trivia Spoke">ec722a182f050110bdff2d5df699b6ce</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-10 22:28:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=string,uiTypeLabel=String,uiUniqueId=a7181899-1805-4429-a6ee-0382f8a1d06e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_content-type</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Content-Type</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Call getQuestion Method">6401f6542f450110bdff2d5df699b6d9</model>
+        <model_id>6401f6542f450110bdff2d5df699b6d9</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_6401f6542f450110bdff2d5df699b6d9</name>
+        <next_element/>
+        <order>9</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-10 22:28:43</sys_created_on>
+        <sys_id>3ffe87982f850110bdff2d5df699b6e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SN Trivia Spoke">ec722a182f050110bdff2d5df699b6ce</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-10 22:28:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=string,uiTypeLabel=String,uiUniqueId=b88165c8-fa80-4d93-90b2-73ed2fc113ba</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_accept</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Accept</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Call getQuestion Method">6401f6542f450110bdff2d5df699b6d9</model>
+        <model_id>6401f6542f450110bdff2d5df699b6d9</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_6401f6542f450110bdff2d5df699b6d9</name>
+        <next_element/>
+        <order>8</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-10 22:28:43</sys_created_on>
+        <sys_id>bbfe87982f850110bdff2d5df699b6da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SN Trivia Spoke">ec722a182f050110bdff2d5df699b6ce</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-10 22:28:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Get Trivia Question">2c01f6542f450110bdff2d5df699b6d7</action>
         <cid>c71e1d9c-c644-4f04-9992-3de4de1c08ee</cid>
